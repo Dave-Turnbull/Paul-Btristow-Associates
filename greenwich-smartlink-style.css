@@ -1,0 +1,20 @@
+/*
+This file is linked to all Royal Museums Greenwich products on CPP
+it hides the size and aspects dialogue boxes because issues were being caused by changing sizes in the smartlink
+Customers will need to select a size in Shopify, before they reach the smartlink
+*/
+
+/* Hide the attributes (the sizes) */
+#attributes-container {
+  display: none;
+}
+
+/* hides the aspects (front and back) */
+#aspects {
+  display: none;
+}
+
+/*Keeps the text box container open*/
+#text-areas-container .expando-in {
+  display: block;
+}
